@@ -1,0 +1,46 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+// font weights
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+// colors
+.c-grey-3 {
+  color: $color-grey-3 !important;
+}
+
+.c-grey-2 {
+  color: $color-grey-2 !important;
+}
+
+//  links and buttons
+.link {
+  color: $color-grey-3;
+
+  &:hover {
+    color: $color-blue !important;
+  }
+}
+
+// miscellaneous utilities
+.show-on-mobile {
+  display: none !important;
+}

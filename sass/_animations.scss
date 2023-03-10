@@ -1,0 +1,14 @@
+// toggle button animation
+.toggle-active .toggle-bar-1 {
+  transform: rotate(45deg) translateX(0.5rem) translateY(0.5rem);
+}
+.toggle-active .toggle-bar-2 {
+  transform: translateX(-2.5rem);
+  background-color: transparent !important;
+}
+.toggle-active .toggle-bar-3 {
+  transform: rotate(-45deg) translateX(0.25rem) translateY(-0.3rem);
+}
+.toggle-active #navbar__menu {
+  display: none;
+}

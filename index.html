@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Zerodha - Online stock trading at lowest prices from India's biggest stock
+      broker – Zerodha
+    </title>
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Learn how checkbox is used to make accordions -->
+    <nav class="navbar text-regular">
+      <div class="container">
+        <a class="navbar__logo" href="#">
+          <img src="./assets/zerodha-logo.svg" alt="zerodha logo" />
+        </a>
+        <ul class="navbar__nav nav-ul">
+          <li>
+            <a class="c-grey-3 hide-on-small link navbar__nav--link" href="#"
+              >Signup</a
+            >
+          </li>
+          <li>
+            <a class="c-grey-3 hide-on-small link navbar__nav--link" href="#"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="c-grey-3 hide-on-small link navbar__nav--link" href="#"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a class="c-grey-3 hide-on-small link navbar__nav--link" href="#"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a class="c-grey-3 hide-on-small link navbar__nav--link" href="#"
+              >Support</a
+            >
+          </li>
+
+          <li style="display: flex; align-items: center">
+            <button id="btn-toggle">
+              <span class="toggle-bar toggle-bar-1"></span>
+              <span class="toggle-bar toggle-bar-2"></span>
+              <span class="toggle-bar toggle-bar-3"></span>
+            </button>
+            <div id="navbar__menu" class="text-regular">
+              <ul class="show-on-mobile navbar__menu--nav">
+                <li>
+                  <a class="c-grey-3 link" href="#">Signup</a>
+                </li>
+                <li>
+                  <a class="c-grey-3 link" href="#">About</a>
+                </li>
+                <li>
+                  <a class="c-grey-3 link" href="#">Products</a>
+                </li>
+                <li>
+                  <a class="c-grey-3 link" href="#">Pricing</a>
+                </li>
+                <li>
+                  <a class="c-grey-3 link" href="#">Support</a>
+                </li>
+              </ul>
+
+              <div class="navbar__menu--products">
+                <div class="product">
+                  <img
+                    class="product__img"
+                    src="./assets/kite-logo.svg"
+                    alt="kite logo"
+                  />
+                  <a href="#" class="product__title fw-500 c-grey-3 link"
+                    >Kite</a
+                  >
+                  <p
+                    class="product__subtitle text-small c-grey-2 hide-on-small"
+                  >
+                    Trading platform
+                  </p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product__img"
+                    src="./assets/console-logo.svg"
+                    alt="console logo"
+                  />
+                  <a href="#" class="product__title fw-500 c-grey-3 link"
+                    >Console</a
+                  >
+                  <p
+                    class="product__subtitle text-small c-grey-2 hide-on-small"
+                  >
+                    Backoffice
+                  </p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product__img"
+                    src="./assets/kite-connect-logo.svg"
+                    alt="kite connect logo"
+                  />
+                  <a href="#" class="product__title fw-500 c-grey-3 link">
+                    Kite Connect
+                  </a>
+                  <p
+                    class="product__subtitle text-small c-grey-2 hide-on-small"
+                  >
+                    Trading APIs
+                  </p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product__img"
+                    src="./assets//coin-logo.svg"
+                    alt="coin logo"
+                  />
+                  <a href="#" class="product__title fw-500 c-grey-3 link"
+                    >Coin</a
+                  >
+                  <p
+                    class="product__subtitle text-small c-grey-2 hide-on-small"
+                  >
+                    Mutual funds
+                  </p>
+                </div>
+              </div>
+              <!-- End of navbar__menu--products -->
+
+              <div class="navbar__menu--footer">
+                <div class="feature">
+                  <p class="fw-500 text-big">Utilities</p>
+                  <ul>
+                    <li>
+                      <a class="link" href="#">Brokerage calculator</a>
+                    </li>
+                    <li>
+                      <a class="link" href="#">Margin calculator</a>
+                    </li>
+                    <li>
+                      <a class="link" href="#">Holiday calendar</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="feature">
+                  <p class="fw-500 text-big">Updates</p>
+                  <ul>
+                    <li>
+                      <a class="link" href="#">Z-Connect blog</a>
+                    </li>
+                    <li>
+                      <a class="link" href="#">Pulse News</a>
+                    </li>
+                    <li>
+                      <a class="link" href="#">Circulars / Bulletin</a>
+                    </li>
+                    <li>
+                      <a class="link" href="#">IPOs</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="feature-education">
+                  <p class="fw-500 text-big">Education</p>
+                  <div class="feature-box">
+                    <img src="./assets/varsity-logo.png" alt="varsity logo" />
+                    <a class="link" href="#">Varsity</a>
+                  </div>
+                  <div class="feature-box">
+                    <img
+                      src="./assets/trading-qna-logo.png"
+                      alt="trading q&a logo"
+                    />
+                    <a class="link" href="#">Trading Q&A</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- End of navbar__nav -->
+      </div>
+      <!-- End of container -->
+    </nav>
+    <!-- End of Navbar -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
